@@ -1,6 +1,6 @@
 # rundeck-httppost-plugin
-Rundeck plugin which enables to do a http post as a rundeck workflow step
--------------------------------------------------------------------------
+Rundeck plugin which sends a http post as a rundeck workflow step
+-----------------------------------------------------------------
 
 Usage:
 
