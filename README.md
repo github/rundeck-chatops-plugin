@@ -2,6 +2,8 @@
 Rundeck plugin which sends a http post as a rundeck workflow step
 -----------------------------------------------------------------
 
+[![Build Status](https://api.travis-ci.org/rvs-fluid-it/rundeck-httppost-plugin.svg)](https://travis-ci.org/rvs-fluid-it/rundeck-httppost-plugin)
+
 Usage:
 
 Put the plugin jar in the `/var/lib/rundeck/libext` folder.
