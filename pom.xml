@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>be.fluid-it.tools.rundeck.plugins</groupId>
-    <artifactId>rundeck-httppost-plugin</artifactId>
+    <artifactId>rundeck-chatops-plugin</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
@@ -17,16 +17,16 @@
     </licenses>
     <developers>
         <developer>
-            <name>Koen Roevens</name>
-            <email>koen.roevens@gmail.com</email>
-            <organization>Fluid IT</organization>
-            <organizationUrl>http://www.fluid-it.be</organizationUrl>
+            <name>Gavin Towey</name>
+            <email>gtowey@github.com</email>
+            <organization>GitHub</organization>
+            <organizationUrl>http://github.com</organizationUrl>
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git@github.com:rvs-fluid-it/rundeck-htpppost-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:rvs-fluid-it/rundeck-httppost-plugin.git</developerConnection>
-        <url>git@github.com:rvs-fluid-it/rundeck-httppost-plugin.git</url>
+        <connection>scm:git:git@github.com:github/rundeck-chatops-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:github/rundeck-chatops-plugin.git</developerConnection>
+        <url>git@github.com:github/rundeck-chatops-plugin.git</url>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -63,6 +63,11 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
         </dependency>
     </dependencies>
 
