@@ -1,4 +1,4 @@
-# rundeck-httppost-plugin
+# rundeck-chatops-plugin
 Rundeck plugin which sends a chatops RPC API call
 -----------------------------------------------------------------
 
