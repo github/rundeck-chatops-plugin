@@ -89,7 +89,7 @@
                             <Rundeck-Plugin-Version>1.1</Rundeck-Plugin-Version>
                             <Rundeck-Plugin-Archive>true</Rundeck-Plugin-Archive>
                             <Rundeck-Plugin-Classnames>
-                                be.fluid_it.tools.rundeck.plugins.rest.RestPostWorkflowStepPlugin
+                                com.github.gtowey.rundeck.plugins.chatops.ChatopsWorkflowStepPlugin
                             </Rundeck-Plugin-Classnames>
                         </manifestEntries>
                     </archive>
