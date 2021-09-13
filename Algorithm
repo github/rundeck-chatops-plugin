@@ -1,0 +1,15 @@
+import java.uitl.arrays;
+public class sort array
+{
+public static void main(String [] args)
+{
+int array[]=new int{90,26,109,12,22,67,34}
+array.sort(array);
+system.out.println("elements of sorted array");
+for(i=0;i<a.length;i++)
+{
+system.out.println(a[i]);
+}
+}
+}
+
